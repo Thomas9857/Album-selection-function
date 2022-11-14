@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.image {
+    width: 500px;
+    height: 300px;
+    
+    margin-bottom: 10px;
+}
+.imageItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 下方图片默认样式 */
+.item {
+    width: 24%;
+    height: 100px;
+    box-sizing: border-box;
+}
+/* 下方图片选中的样式，增加一个边框 */
+.active {
+    border: 2px solid #4b4453;
+}
